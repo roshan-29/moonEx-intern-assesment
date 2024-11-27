@@ -1,7 +1,7 @@
 import React from 'react';
 import backgroundAbout from '../assets/about1.png';
 import ComparisonTable from '../components/ComparisonTable';
-import Features from '../components/Features.JSX';
+import Features from '../components/Features.jsx';
 function About() {
   return (
     <>
