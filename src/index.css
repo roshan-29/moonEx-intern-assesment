@@ -1,0 +1,7 @@
+/* src/index.css */
+/* index.css or tailwind.css */
+@import url('https://fonts.googleapis.com/css2?family=Neue+Machina:wght@900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
