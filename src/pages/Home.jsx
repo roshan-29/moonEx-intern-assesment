@@ -5,11 +5,11 @@ import Navbar from '../components/Navbar';
 function Home() {
   return (
     <div 
-      className="bg-no-repeat bg-cover h-[1050px] w-full text-white"
+      className="bg-no-repeat bg-cover lg:h-[1050px] w-full text-white  "
       style={{ backgroundImage: `url(${homeBg})` }}
     >
       <Navbar />
-      <div className="flex flex-col space-x-4 mt-56 ml-20 pt-10 pl-[15px] sm:ml-10 sm:mt-32 sm:pl-6 md:ml-16 md:mt-40 lg:ml-20 lg:mt-56">
+      <div className="flex flex-col space-x-4  lg:mt-56 lg:ml-20 pt-10 pl-[15px] sm:ml-10 sm:mt-32 sm:pl-6 md:ml-16 md:mt-40 lg:ml-20 lg:mt-56">
         <div className="text-[#ffffff] p-4 flex flex-col font-orbitron text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
           Trusted Multi-Chain
           <div className="flex flex-row mt-2">
@@ -17,7 +17,7 @@ function Home() {
             <span className="text-[#ffffff] pl-8"> Platform</span>
           </div>
         </div>
-        <div className="text-[#9E9E9E] font-raleway text-[20px] sm:text-[22px] md:text-[25px] lg:text-[27px] whitespace-nowrap w-full sm:w-2/3 md:w-1/2">
+        <div className="text-[#9E9E9E] font-raleway text-[20px] sm:text-[22px] md:text-[25px] lg:text-[27px] lg:whitespace-nowrap w-full sm:w-2/3 md:w-1/2">
           Trade, earn, and own crypto on the all-in-one multi-chain DEX
         </div>
         <div className="text-white pt-8 w-full sm:w-2/3 md:w-1/2 lg:w-1/3">

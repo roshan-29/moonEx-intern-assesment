@@ -33,10 +33,13 @@ function App() {
       ) : (
         // Main content after loading
         <>
+        <div className="overflow-x-hidden">
+        
           <Home />
           <About />
           <AccordionItem />
           <Footer />
+          </div>
         </>
       )}
       

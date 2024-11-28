@@ -5,10 +5,10 @@ import Features from '../components/Features.jsx';
 function About() {
   return (
     <>
-    <div  id="About Us"  className="bg-no-repeat bg-cover h-[1350px] w-full text-white bg-[length:100%_auto]  bg-[top_50%]" 
+    <div  id="About Us"  className="bg-no-repeat bg-cover h-[1350px] w-full text-white bg-[length:100%_auto]  bg-[top_50%]   " 
     style={{ backgroundImage: `url(${backgroundAbout})` }}>
       
-    <div className="font-bold font-orbitron text-[40px] ml-44 hover:text-[#E4B40D] transition duration-300">
+    <div className="font-bold font-orbitron text-[40px] lg:ml-44 ml-8 hover:text-[#E4B40D] transition duration-300">
   Why <span className="text-[#E4B40D] font-bold text-[45px] hover:text-white transition duration-300">MoonEX ?</span>
 </div>
 
